@@ -26,6 +26,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <ListView
+        android:id="@+id/lv_inbox_sms"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="false"
