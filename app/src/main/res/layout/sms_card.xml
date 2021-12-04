@@ -41,7 +41,6 @@
             android:layout_toRightOf="@id/lbl_contact_no"
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
-            android:text="6355689874"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="20dp" />
 
@@ -67,7 +66,6 @@
             android:layout_toEndOf="@id/lbl_sms_body"
             android:layout_toRightOf="@id/lbl_sms_body"
             android:layout_alignRight="@+id/tv_contact_no"
-            android:text="This is SMS Body.It may contain the sms body up to 5 lines. sent by the sender and recieed by smsmanager."
             android:layout_alignLeft="@id/tv_contact_no"
             android:layout_alignEnd="@+id/tv_contact_no" />
 

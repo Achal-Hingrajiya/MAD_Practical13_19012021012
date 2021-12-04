@@ -34,6 +34,7 @@
         android:layout_below="@+id/topAppBarLayout"/>
 
     <Button
+        android:id="@+id/btn_new_sms"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
