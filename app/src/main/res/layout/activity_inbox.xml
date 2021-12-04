@@ -33,20 +33,6 @@
         android:layout_above="@+id/bnav"
         android:layout_below="@+id/topAppBarLayout"/>
 
-    <Button
-        style="@style/Widget.MaterialComponents.Button.Icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_above="@+id/bnav"
-        android:layout_marginBottom="10dp"
-        android:layout_marginRight="20dp"
-        app:icon="@drawable/ic_baseline_chat_24"
-        android:text="Start Chat"
-        android:textAllCaps="false"
-        android:padding="10dp"
-        android:layout_marginEnd="20dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bnav"

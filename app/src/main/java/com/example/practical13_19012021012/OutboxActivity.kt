@@ -23,6 +23,8 @@ class OutboxActivity : AppCompatActivity() {
 
 
         val bnav = findViewById<BottomNavigationView>(R.id.bnav)
+        bnav.selectedItemId = R.id.outbox
+
         bnav.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.inbox -> {
