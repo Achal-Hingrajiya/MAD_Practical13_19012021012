@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical13_19012021012">
-        <activity android:name=".InboxActivity">
+        <activity android:name=".InboxActivity" android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OutboxActivity" />
+        <activity android:name=".OutboxActivity" android:noHistory="true"/>
 
     </application>
 
