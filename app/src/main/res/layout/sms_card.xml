@@ -11,7 +11,6 @@
     android:layout_alignParentStart="true"
     android:layout_marginHorizontal="20dp"
     android:layout_centerInParent="true"
-    app:cardElevation="10dp"
     app:cardCornerRadius="10dp">
 
 
@@ -29,9 +28,10 @@
             android:layout_marginHorizontal="20dp"
             android:layout_marginVertical="10dp"
             android:textColor="@color/black"
+            android:textStyle="bold"
             android:text="Contact No: " />
 
-        <TextView
+        <EditText
             android:id="@+id/tv_contact_no"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,7 +41,9 @@
             android:layout_toRightOf="@id/lbl_contact_no"
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
-            android:text="6355689874" />
+            android:text="6355689874"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp" />
 
         <TextView
             android:id="@+id/lbl_sms_body"
@@ -51,9 +53,11 @@
             android:layout_marginVertical="10dp"
             android:layout_below="@+id/tv_contact_no"
             android:textColor="@color/black"
-            android:text="SMS Body: " />
+            android:textStyle="bold"
+            android:text="SMS Body: "
+            android:layout_alignStart="@+id/lbl_contact_no" />
 
-        <TextView
+        <EditText
             android:id="@+id/tv_sms_body"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
