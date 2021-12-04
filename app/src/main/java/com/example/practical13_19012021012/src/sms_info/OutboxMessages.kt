@@ -14,9 +14,8 @@ class OutboxMessages (var contactNo : String, var body : String){
         }
 
         fun addSMS(sms : OutboxMessages){
-            inboxSmsArr.add(sms)
+            outboxSmsArr.add(sms)
         }
-
-        var inboxSmsArr: ArrayList<OutboxMessages> = ArrayList()
+        var outboxSmsArr: ArrayList<OutboxMessages> = ArrayList()
     }
 }
