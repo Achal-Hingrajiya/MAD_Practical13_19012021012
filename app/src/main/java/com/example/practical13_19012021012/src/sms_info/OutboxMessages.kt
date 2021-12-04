@@ -6,9 +6,9 @@ class OutboxMessages (var contactNo : String, var body : String){
 
     companion object {
 
-        var id = 0
+        var id : Long = 0
 
-        fun idGeneration(): Int {
+        fun idGeneration(): Long {
             id += 1
             return id
         }

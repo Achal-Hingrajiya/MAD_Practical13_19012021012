@@ -6,6 +6,8 @@ import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class OutboxActivity : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_outbox)
@@ -24,5 +26,7 @@ class OutboxActivity : AppCompatActivity() {
                     return@setOnItemSelectedListener true
             }
         }
+
+
     }
 }
