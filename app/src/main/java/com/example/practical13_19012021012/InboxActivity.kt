@@ -8,21 +8,15 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.Telephony
-import android.telephony.SmsManager
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.EditText
 import android.widget.ListView
-import android.widget.TimePicker
-import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.core.app.ActivityCompat
-import com.example.practical13_19012021012.src.adapters.InboxSmsAdapter
-import com.example.practical13_19012021012.src.sms_info.InboxMessages
-import com.example.practical13_19012021012.src.sms_info.OutboxMessages
+import com.example.practical13_19012021012.adapters.InboxSmsAdapter
+import com.example.practical13_19012021012.sms_info.InboxMessages
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.switchmaterial.SwitchMaterial
-import com.google.android.material.textfield.TextInputEditText
 
 class InboxActivity : AppCompatActivity() {
 

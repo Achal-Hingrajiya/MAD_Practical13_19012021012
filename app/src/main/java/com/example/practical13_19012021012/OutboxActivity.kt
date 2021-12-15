@@ -17,9 +17,8 @@ import android.widget.ListView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.core.app.ActivityCompat
-import com.example.practical13_19012021012.src.adapters.OutboxSmsAdapter
-import com.example.practical13_19012021012.src.sms_info.InboxMessages
-import com.example.practical13_19012021012.src.sms_info.OutboxMessages
+import com.example.practical13_19012021012.adapters.OutboxSmsAdapter
+import com.example.practical13_19012021012.sms_info.OutboxMessages
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class OutboxActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.example.practical13_19012021012.src.adapters
+package com.example.practical13_19012021012.adapters
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,9 +10,9 @@ import android.widget.BaseAdapter
 import android.widget.EditText
 import androidx.annotation.RequiresApi
 import com.example.practical13_19012021012.R
-import com.example.practical13_19012021012.src.sms_info.OutboxMessages
+import com.example.practical13_19012021012.sms_info.InboxMessages
 
-class OutboxSmsAdapter(private val context : Context, private val dataSource : ArrayList<OutboxMessages>) : BaseAdapter() {
+class InboxSmsAdapter(private val context : Context, private val dataSource : ArrayList<InboxMessages>) : BaseAdapter() {
     override fun getCount(): Int {
         return dataSource.size
     }
@@ -42,7 +42,7 @@ class OutboxSmsAdapter(private val context : Context, private val dataSource : A
         tvSmsBody.setBackgroundResource(android.R.color.transparent)
 
 
-        val sms = getItem(position) as OutboxMessages
+        val sms = getItem(position) as InboxMessages
 
         tvContactNo.setText(sms.contactNo)
         tvSmsBody.setText(sms.body)

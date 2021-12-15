@@ -1,4 +1,4 @@
-package com.example.practical13_19012021012.src.sms_info
+package com.example.practical13_19012021012.sms_info
 
 class InboxMessages (var contactNo : String, var body : String){
 
